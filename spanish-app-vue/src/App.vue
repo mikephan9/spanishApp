@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <span class="container">
     <app-header></app-header>
     <router-view></router-view>
-  </div>
+  </span>
 </template>
 
 <script>
@@ -19,7 +19,6 @@
  .container {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 </style>
