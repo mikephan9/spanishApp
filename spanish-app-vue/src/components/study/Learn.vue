@@ -1,6 +1,9 @@
 <template>
     <div class="learn-container">
         <h2> Lessons </h2>
+        <div id="info"> 
+            <p>Here you will find 3 different levels on where you can start learning. The are 3 levels such as basic, intermediate, and advanced. Choose a level that bests suits you.</p>
+        </div>
     <div class="accordion" id="accordionExample">
         <div class="card">
             <div class="card-header" id="headingOne">
@@ -53,6 +56,10 @@
 </template>
 
 <style scoped>
+h2 {
+    margin: 30px auto;
+}
+
 .learn-container {
     text-align: center;
 }
@@ -62,6 +69,10 @@
 
 #startLesson {
     margin: 10px auto;
+}
+
+#info {
+    margin: 30px 190px;
 }
 
 </style>

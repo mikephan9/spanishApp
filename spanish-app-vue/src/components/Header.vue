@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: orange;">
-  <router-link class="navbar-brand" to="/">Span-Eng</router-link>
+  <router-link class="navbar-brand" to="/">EspEng</router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -24,7 +24,12 @@
 </nav>
 </template>
 
+<script>
+export default {
+
+
+}
+</script>
+
 <style>
-
-
 </style>
